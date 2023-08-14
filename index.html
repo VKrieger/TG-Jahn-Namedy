@@ -20,18 +20,48 @@
   <body>
     <header>
       <nav class="logo">
-        <a href="#"><img src="./resources/images/logo.jpeg" alt="logo" /></a>
-        <a href="#">TG Jahn Namedy</a>
+        <a href="#"><img src="./resources/images/logo.svg" alt="logo" /></a>
       </nav>
       <nav class="links">
         <ul>
-          <li><a href="#aktuelles">Aktuelles</a></li>
-          <li><a>Verein</a></li>
-          <li><a>Fussball</a></li>
-          <li><a>Breitensport</a></li>
-          <li><a>Badminton</a></li>
-          <li><a>Tischtennis</a></li>
-          <li><a>Volleyball</a></li>
+          <li><a href="./index.html#aktuelles">Aktuelles</a></li>
+          <li>
+            <a>Verein</a>
+            <ul>
+              <li><a href="./Vorstand/ueber_uns.html">Über Uns</a></li>
+              <li><a href="./Vorstand/vorstand.html">Vorstand</a></li>
+              <li>
+                <a href="./Vorstand/mitgliedschaft.html">Mitglied werden</a>
+              </li>
+              <li><a href="./Vorstand/downloads.html">Downloads</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>Fussball</a>
+            <ul>
+              <li><a href="./Fussball/bambinis.html">Bambinis</a></li>
+              <li><a href="./Fussball/f_jugend.html">F-Jugend</a></li>
+              <li><a href="./Fussball/e_jugend.html">E-Jugend</a></li>
+              <li><a href="./Fussball/d_jugend.html">D-Jugend</a></li>
+              <li><a href="./Fussball/herren.html">Alte Herren</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>Breitensport</a>
+            <ul>
+              <li><a href="./Breitensport/gymnastik.html">Gymnastik</a></li>
+              <li>
+                <a href="./Breitensport/bauch_beine_po.html">Bauch Beine Po</a>
+              </li>
+              <li>
+                <a href="./Breitensport/leichtathletik.html">Leichtathletik</a>
+              </li>
+              <li><a href="./Breitensport/kinderturnen.html">Kinderturnen</a></li>
+            </ul>
+          </li>
+          <li><a href="./Badminton/badminton.html">Badminton</a></li>
+          <li><a href="./Tischtennis/tischtennis.html">Tischtennis</a></li>
+          <li><a href="./Volleyball/volleyball.html">Volleyball</a></li>
         </ul>
       </nav>
     </header>
@@ -50,7 +80,45 @@
     <main>
       <section id="aktuelles">
         <h2>Aktuelles</h2>
+
+        <!--
+        <div class="events">
+          <h3>Termine</h3>
+          <div class="nextEvent">
+            <div class="kalendar">
+              <p class="monat">Sept</p>
+              <p class="tag">08</p>
+            </div>
+            <div class="nextInfo">
+              <p class="gruppe">Fussball</p>
+              <p class="nextText">E-Jugend: TG Namedy II gegen JSG Ochtendung II</p>
+            </div>
+          </div>
+        </div>
+      -->
+
         <article class="news">
+          <div class="news_card">
+            <div class="image_wrapper">
+              <img
+                src="./resources/images/news/319395026_1330141671067954_4474034511941393557_n.jpg"
+              />
+            </div>
+            <div class="text_box">
+              <time>17. Dezember 2022</time>
+              <h3>Engagement im Ehrenamt !</h3>
+              <p>
+                Die Trainer der E-Jugend ermöglichen ihren Schützlingen heute
+                ein ganz besonderes Erlebnis. Wir sind zu Gast bei den Fohlen in
+                Mönchengladbacher Borussia-Park. Wir wünschen den Kindern und
+                ihren Familien viel Spaß beim "Legendenspiel". Der Dank geht
+                raus an Christoph Platen und Martin Busch für die Idee und
+                Organisation!
+              </p>
+            </div>
+            <a href="#">weiter lesen</a>
+          </div>
+
           <div class="news_card">
             <div class="image_wrapper"></div>
             <div class="text_box">
@@ -89,7 +157,7 @@
 
           <div class="news_card">
             <div class="image_wrapper">
-              <img src="./resources/images/news/cache_2489775424.jpg" />
+              <img src="/resources/images/news/cache_2489775424.jpg" />
             </div>
             <div class="text_box">
               <time>28. April 2022</time>
@@ -137,6 +205,45 @@
           </div>
         </article>
       </section>
+      <section class="anfahrt">
+        <h2>Kontakt und Anfahrt</h2>
+        <div class="ort">
+          <div class="kontakt">
+            <h3>Sportplatz und Vereinsheim</h3>
+            <p>Waldstraße</p>
+            <p>56626 Andernach - Namedy</p>
+            <br />
+            <a href="mailto:info@tg-jahn-namedy.de">info@tg-jahn-namedy.de</a>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2443.7598824290835!2d7.360614486936271!3d50.45058072985185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1692045904524!5m2!1sde!2sde"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="ort">
+          <div class="kontakt">
+            <h3>Sporthalle</h3>
+            <p>Malmedyer Weg</p>
+            <p>56626 Andernach - Namedy</p>
+            <br />
+            <a href="mailto:info@tg-jahn-namedy.de">info@tg-jahn-namedy.de</a>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2442516128335!2d7.3632906!3d50.4551762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bef5c5fedbd99d%3A0x78d4142a3e4d81e2!2sSporthalle!5e0!3m2!1sde!2sde!4v1692047418404!5m2!1sde!2sde"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
       <section class="sponsor">
         <h2>Sponsoren</h2>
         <article class="sponsoren">
@@ -144,13 +251,10 @@
             <img src="./resources/images/Sponsors/cache_2473940292.png" />
           </div>
           <div class="sponsor_card">
-            <img src="./resources/images/Sponsors/cache_2473940302.jpg" />
+            <img src="./resources/images/Sponsors/ksk.png" />
           </div>
           <div class="sponsor_card">
-            <img src="./resources/images/Sponsors/cache_2474176695.jpg" />
-          </div>
-          <div class="sponsor_card">
-            <img src="./resources/images/Sponsors/cache_2476007487.jpg" />
+            <img src="./resources/images/Sponsors/stadtwerke.jpeg" />
           </div>
         </article>
       </section>
