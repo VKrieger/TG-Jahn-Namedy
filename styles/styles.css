@@ -127,48 +127,48 @@ header a {
 
 .badminton {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Badminton/badminton.jpg);
+  url(../Badminton/badminton.jpg);
 }
 
 .tischtennis {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Tischtennis/tischtennis.jpg);
+  url(../Tischtennis/tischtennis.jpg);
 }
 
 .volleyball {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Volleyball/volleyball.jpg);
+  url(../Volleyball/volleyball.jpg);
 }
 
 .gymnastik {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Breitensport/gymnastik.jpg);
+  url(../Breitensport/gymnastik.jpg);
 }
 
 .bauch {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Breitensport/bauch.jpg);
+  url(../Breitensport/bauch.jpg);
 
 }
 
 .leichtathletik {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Breitensport/leichtathletik.jpg);
+  url(../Breitensport/leichtathletik.jpg);
 }
 
 .turnen {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Breitensport/kinderturnen.jpeg);
+  url(../Breitensport/kinderturnen.jpeg);
 }
 
 .bambinis {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Fussball/bambinis.jpeg);
+  url(../Fussball/bambinis.jpg);
 }
 
 .ball {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/Fussball/ball.jpg);
+  url(../Fussball/ball.jpg);
 }
 
 .hero article {
