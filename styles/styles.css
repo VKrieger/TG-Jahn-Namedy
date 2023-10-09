@@ -367,7 +367,7 @@ main h2 {
   scroll-margin-top: 100rem;
   scroll-padding-top: 100rem;
   scroll-behavior: smooth;
-  width: 75vw;
+  width: 80vw;
   height: 50%;
   transition: all 0.75s ease;
   margin: auto;
