@@ -381,7 +381,7 @@ main h2 {
 }
 
 .news_card:has(a:focus) .text_box{
-
+  padding: 2.5rem 7.5rem;
   height: fit-content;
 }
 
