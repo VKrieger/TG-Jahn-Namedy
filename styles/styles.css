@@ -247,7 +247,8 @@ main {
   margin: 0 auto;
   text-align: center;
   color: #01401c;
-
+  padding: 1rem 2.5rem;
+  margin: 1rem;
 }
 
 main h2 {
@@ -521,8 +522,10 @@ footer nav a:hover {
   }
 
   main {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
+    padding: 0;
   }
+
 
   .headline {
     padding: 1rem;
@@ -535,6 +538,12 @@ footer nav a:hover {
 
   .hero button {
     margin: 1rem;
+  }
+
+  .news_card a{
+    font-size: 0;
+    padding: 0;
+    margin: 0;
   }
 
 
