@@ -560,7 +560,7 @@ footer nav a:hover {
 
   iframe {
     width: 100% !important;
-    height: auto;
+    height: fit-content;
     }
 
 }
