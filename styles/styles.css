@@ -501,11 +501,12 @@ footer img {
   margin: 1rem;
 }
 
+
+
 footer nav a {
   color: #f2f2f2;
-  padding: 0 1rem;
   cursor: pointer;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 footer nav a:hover {
@@ -518,6 +519,8 @@ footer nav a:hover {
 }
 
 @media only screen and (orientation: portrait) {
+
+ 
   .links {
     display: none;
   }
@@ -529,8 +532,8 @@ footer nav a:hover {
   }
 
   main {
-    margin: 0;
-    padding: 0;
+    margin: 0 0;
+    padding: 0.5rem;
   }
 
 
@@ -552,6 +555,8 @@ footer nav a:hover {
     padding: 0;
     margin: 0;
   }
-
+  iframe {
+    width: 100% !important;
+  }
 
 }
