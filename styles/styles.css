@@ -481,7 +481,7 @@ main section {
 .widget{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
@@ -555,8 +555,12 @@ footer nav a:hover {
     padding: 0;
     margin: 0;
   }
+
+
+
   iframe {
     width: 100% !important;
-  }
+    height: auto;
+    }
 
 }
