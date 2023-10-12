@@ -273,7 +273,7 @@ main h2 {
   position: relative;
   width: 24rem;
   height: 48rem;
-  background-color: rgba(46, 229, 157, 0.4);
+  background-color: rgba(106, 244, 131, 0.4);
   border-radius: 0.5rem;
 
   padding-bottom: 0.625rem;
@@ -529,7 +529,7 @@ footer nav a:hover {
   }
 
   main {
-    margin: 0 0.5rem;
+    margin: 0;
     padding: 0;
   }
 
