@@ -197,14 +197,19 @@ header a {
 
 .geschichte {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../resources/images/logo.svg);
-  background-size: contain;
+    url(../resources/images/Chronik1.webp);
+
 }
 
 .chronik {
   text-align: left;
   padding-left: 15rem;
   padding-right: 15rem;
+}
+
+.chronik img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 .hero article {
