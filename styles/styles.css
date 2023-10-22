@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   color: #f2f2f2;
+
 }
 
 h1 {
@@ -13,7 +14,6 @@ h3 {
 
 h4 {
   font-size: 1.15rem;
-  
 }
 
 h1,
@@ -23,6 +23,8 @@ h4 {
   font-family: "Assistant", sans-serif;
   font-weight: 700;
 }
+
+
 
 p {
   font-family: "Poppins", sans-serif;
@@ -73,7 +75,6 @@ nav a:hover {
   color: rgba(51, 100, 61, 0.5);
 }
 
-
 .links a {
   padding: 0.25rem;
   margin: 0.25rem;
@@ -88,21 +89,18 @@ nav a:hover {
 }
 
 .links ul li ul {
-margin-left: -0.5rem;
-padding: 1rem 0.25rem 0.25rem;
+  margin-left: -0.5rem;
+  padding: 1rem 0.25rem 0.25rem;
 }
 
 .links ul li ul li {
   padding: 0.25rem;
 }
 
-
-
-
-.links ul li:hover ul, .links ul li:target ul{
+.links ul li:hover ul,
+.links ul li:target ul {
   display: block;
 }
-
 
 header a {
   text-decoration: none;
@@ -124,21 +122,23 @@ header a {
 }
 
 .hero {
+
   top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: green;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../resources/images/hero/Sportplatz.jpg);
+  background-image: 
+  url(../resources/images/hero/Sportplatz2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  backdrop-filter: blur(10px);
+
   height: 40rem;
+
 }
 
-.abteilungen h3{
+.abteilungen h3 {
   font-size: 2rem;
 }
 
@@ -152,61 +152,59 @@ header a {
 
 .badminton {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Badminton/badminton.jpg);
+    url(../Badminton/badminton.webp);
 }
 
 .tischtennis {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Tischtennis/tischtennis.jpg);
+    url(../Tischtennis/tischtennis.webp);
 }
 
 .volleyball {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Volleyball/volleyball.jpg);
+    url(../Volleyball/volleyball.webp);
 }
 
 .gymnastik {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Breitensport/gymnastik.jpg);
+    url(../Breitensport/gymnastik.webp);
 }
 
 .bauch {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Breitensport/bauch.jpg);
-
+    url(../Breitensport/bauch.webp);
 }
 
 .leichtathletik {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Breitensport/leichtathletik.jpg);
+    url(../Breitensport/leichtathletik.webp);
 }
 
 .turnen {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Breitensport/kinderturnen.jpeg);
+    url(../Breitensport/kinderturnen.webp);
 }
 
 .bambinis {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Fussball/bambinis.jpg);
+    url(../Fussball/bambinis.webp);
 }
 
 .ball {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../Fussball/ball.jpg);
+    url(../Fussball/ball.webp);
 }
 
 .geschichte {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../resources/images/logo.svg);
+    url(../resources/images/logo.svg);
   background-size: contain;
 }
 
 .chronik {
-  text-align:left;
+  text-align: left;
   padding-left: 15rem;
   padding-right: 15rem;
-
 }
 
 .hero article {
@@ -289,18 +287,14 @@ main h2 {
 
   padding-bottom: 0.625rem;
   box-shadow: 1px 2px 8px rgba(100, 100, 100, 0.1);
-  transition: all 0.75s ease ;
- 
+  transition: all 0.75s ease;
 }
-
 
 .news_card:hover {
   transition: 0.3s ease-out;
   transform: scale(1.03);
   box-shadow: 1px 2px 8px rgba(100, 100, 100, 0.3);
 }
-
-
 
 .image_wrapper {
   background-image: url(../resources/images/logo.jpeg);
@@ -319,7 +313,6 @@ main h2 {
   overflow: hidden;
 }
 
-
 .text_box {
   padding: 1.25rem;
   height: 23.5rem;
@@ -334,16 +327,14 @@ main h2 {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .text_box {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .text_box h3 {
   font-size: 2.25rem;
   line-height: 1;
 }
-
-
 
 .text_box p {
   font-size: 0.85rem;
@@ -374,7 +365,7 @@ main h2 {
   transition: linear 0.2s;
 }
 
-.news_card:has(a:focus)  {
+.news_card:has(a:focus) {
   scroll-margin-top: 100rem;
   scroll-padding-top: 100rem;
   scroll-behavior: smooth;
@@ -384,29 +375,27 @@ main h2 {
   margin: auto;
 }
 
-.news_card:has(a:focus) .image_wrapper{
+.news_card:has(a:focus) .image_wrapper {
   background-image: none;
- 
+
   height: max-content;
   max-height: 100%;
 }
 
-.news_card:has(a:focus) .text_box{
+.news_card:has(a:focus) .text_box {
   padding: 2.5rem 7.5rem;
   height: fit-content;
 }
 
-.news_card:has(a:focus) a{
+.news_card:has(a:focus) a {
   font-size: 0;
   padding: 0;
   margin: 0;
 }
 
-.news_card:hover:has(a:focus){
-  transform: scale(1.00);
+.news_card:hover:has(a:focus) {
+  transform: scale(1);
 }
-
-
 
 main section {
   margin-top: 5rem;
@@ -424,16 +413,15 @@ main section {
   flex-wrap: wrap;
 }
 
-
-
 .kontakt {
-  padding: 10rem 2.5rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: left;
-  justify-content: center;
-  line-height: 0;
+  padding: 5rem 2.5rem;
+ display: flex;
+ flex-direction: column;
+text-align: start;
+ justify-content: center;
+ flex-wrap: wrap;
+ 
+
 }
 
 .sponsoren {
@@ -452,7 +440,7 @@ main section {
   box-shadow: 1px 2px 8px rgba(100, 100, 100, 0.1);
   overflow: hidden;
   padding: 0.5rem;
-  transition: 0.3s ;
+  transition: 0.3s;
 }
 
 .sponsor_card img {
@@ -479,17 +467,13 @@ main section {
   margin-top: auto;
 }
 
-
-
-
 .person_info img {
   border-radius: 0.5rem;
   width: 150px;
   height: 200px;
-  
 }
 
-.widget{
+.widget {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -512,8 +496,6 @@ footer img {
   margin: 1rem;
 }
 
-
-
 footer nav a {
   color: #f2f2f2;
   cursor: pointer;
@@ -530,8 +512,6 @@ footer nav a:hover {
 }
 
 @media only screen and (orientation: portrait) {
-
- 
   .links {
     display: none;
   }
@@ -545,7 +525,6 @@ footer nav a:hover {
   main {
     margin: 0;
     padding: 1rem;
-
   }
 
   .chronik {
@@ -557,191 +536,168 @@ footer nav a:hover {
     line-height: 1;
   }
 
-  .hero article {
-    text-align: left;
-  }
+ 
 
   .hero button {
     margin: 1rem;
   }
 
-  .news_card a{
+  .news_card a {
     font-size: 0;
     padding: 0;
     margin: 0;
   }
 
-
-
   iframe {
     width: 100% !important;
-    }
+  }
 
-    #mobileNav {
-      position: relative;
-      margin: 0 auto;
-     
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-    }
+  #mobileNav {
+    position: relative;
+    margin: 0 auto;
 
-    .mobileBodyContent {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
 
-      position: relative;
-      z-index: 20;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      visibility: visible;
-      transition: all 0.4s ease-in;
-    }
-    
-    #burgerBtn {
-      border-top: 2px solid rgba(51, 100, 61, 0.9);
-      height: 25px;
-      width: 30px;
-      box-sizing: border-box;
-      position: absolute;
-      z-index: 30;
-      left: 20px;
-      top: 2rem;
-      cursor: pointer;
-     
-      transition: all 0.3s ease-in;
-    }
-    #burgerBtn:before {
-      content: "";
-      display: block;
-      position: absolute;
-      height: 2px;
-      width: 30px;
-      left: 0;
-      background: rgba(51, 100, 61, 0.9);
-      top: 10px;
-     
-      transition: all 0.3s ease-in;
-    }
-    #burgerBtn:after {
-      content: "";
-      display: block;
-      position: absolute;
-      height: 2px;
-      width: 30px;
-      left: 0;
-      background: rgba(51, 100, 61, 0.9);
-      bottom: 0;
-     
-      transition: all 0.3s ease-in;
-    }
-    
-    #moNav {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      justify-content: start;
-      position: absolute;
-      margin-top: 2rem;
-      z-index: 10;
-      overflow: hidden;
-      height: 42rem;
+  .mobileBodyContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-    }
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    visibility: visible;
+    transition: all 0.4s ease-in;
+  }
 
-    #moNavList {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      list-style-type: none;
-      margin: 100px 0 0 20px;
-      padding: 0;
+  #burgerBtn {
+    border-top: 2px solid rgba(51, 100, 61, 0.9);
+    height: 25px;
+    width: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 30;
+    left: 20px;
+    top: 2rem;
+    cursor: pointer;
 
+    transition: all 0.3s ease-in;
+  }
+  #burgerBtn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    left: 0;
+    background: rgba(51, 100, 61, 0.9);
+    top: 10px;
 
-    }
+    transition: all 0.3s ease-in;
+  }
+  #burgerBtn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    left: 0;
+    background: rgba(51, 100, 61, 0.9);
+    bottom: 0;
 
+    transition: all 0.3s ease-in;
+  }
 
-    #moNavList a {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding-right: 0.5rem;
-      text-decoration: none;
-      color: rgb(51, 100, 61);
-    }
-    
-    #moNavList a:hover {
-      cursor: pointer;
-      color: rgba(51, 100, 61, 0.5);
-    }
+  #moNav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    margin-top: 2rem;
+    z-index: 10;
+    overflow: hidden;
+    height: 42rem;
+  }
 
-    #moNavList li {
+  #moNavList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 100px 0 0 20px;
+    padding: 0;
+  }
 
-      padding-top: 0.5rem;
-      padding-left: 0.5rem;
-      height: 30px;
-      width: 0;
-      margin: 1rem 0;
-      background: #eae8e5;
-      border-radius: 0.5rem;
-      transition: all 0.4s ease-in;
-      visibility: hidden;
+  #moNavList a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color: rgb(51, 100, 61);
+  }
 
-    }
+  #moNavList a:hover {
+    cursor: pointer;
+    color: rgba(51, 100, 61, 0.5);
+  }
 
-  
-  
-  
-    
-    .navigation #moNav li {
-      width: 200px;
-      margin-left: 0;
-      visibility: visible;
-    }
-    .navigation #burgerBtn {
-      border-color: transparent;
-    }
-    .navigation #burgerBtn:before {
-    
-      transform: rotate(45deg);
-      width: 33px;
-      left: -2px;
-    }
-    .navigation #burgerBtn:after {
-     
-      transform: rotate(135deg);
-      bottom: 11px;
-      width: 33px;
-      left: -2px;
-    }
+  #moNavList li {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    height: 30px;
+    width: 0;
+    margin: 1rem 0;
+    background: #eae8e5;
+    border-radius: 0.5rem;
+    transition: all 0.4s ease-in;
+    visibility: hidden;
+  }
 
-   .navigation .mobileBodyContent {
-   
-      transform: scale(0.85);
-      margin-left: 260px;
-    }
+  .navigation #moNav li {
+    width: 200px;
+    margin-left: 0;
+    visibility: visible;
+  }
+  .navigation #burgerBtn {
+    border-color: transparent;
+  }
+  .navigation #burgerBtn:before {
+    transform: rotate(45deg);
+    width: 33px;
+    left: -2px;
+  }
+  .navigation #burgerBtn:after {
+    transform: rotate(135deg);
+    bottom: 11px;
+    width: 33px;
+    left: -2px;
+  }
 
-    #moNavList li ul {
-      display: none;
-      list-style-type: none;
+  .navigation .mobileBodyContent {
+    transform: scale(0.85);
+    margin-left: 260px;
+  }
 
-    }
-    
-    #moNavList li ul li{
-      margin-top: 2rem;
-    }
-    
-    #moNavList .sub ul{
-      display: inline;
-  
-    }
+  #moNavList li ul {
+    display: none;
+    list-style-type: none;
+  }
 
+  #moNavList li ul li {
+    margin-top: 2rem;
+  }
 
-     .sub ~ li{
-      display: none;
+  #moNavList .sub ul {
+    display: inline;
+  }
 
-    }
-    
-    
+  .sub ~ li {
+    display: none;
+  }
 }
