@@ -20,14 +20,24 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Assistant", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
 }
 
+a {
+  font-family: 'Cabin', sans-serif;
+  text-decoration: none;
+  color: rgb(51, 100, 61);
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgba(51, 100, 61, 0.5);
+}
 
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 1rem;
 }
 
@@ -66,6 +76,7 @@ nav {
   margin-right: 0.5rem;
 }
 nav a {
+  font-family: 'Cabin', sans-serif;
   text-decoration: none;
   color: rgb(51, 100, 61);
 }
@@ -83,9 +94,10 @@ nav a:hover {
 .links ul li ul {
   display: none;
   position: absolute;
-
+  box-shadow: 1px 2px 8px rgba(100, 100, 100, 0.3);
   background-color: white;
   border-radius: 0.5rem;
+  
 }
 
 .links ul li ul {
@@ -123,7 +135,7 @@ header a {
 
 .hero {
 
-  top: 0;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
