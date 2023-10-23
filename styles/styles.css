@@ -363,6 +363,7 @@ main h2 {
 }
 
 .text_box time {
+  font-family: 'Cabin', sans-serif;
   color: rgba(51, 100, 61, 0.9);
   font-size: 0.85rem;
 }
