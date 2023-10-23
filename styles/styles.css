@@ -357,7 +357,7 @@ main h2 {
 }
 
 .text_box p {
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding-top: 0.625rem;
   line-height: 2;
 }
@@ -365,7 +365,8 @@ main h2 {
 .text_box time {
   font-family: 'Cabin', sans-serif;
   color: rgba(51, 100, 61, 0.9);
-  font-size: 0.85rem;
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 .news_card a {
@@ -376,7 +377,7 @@ main h2 {
   padding: 0.313rem 0.625rem;
   text-decoration: none;
   color: rgb(51, 100, 61);
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
 }
