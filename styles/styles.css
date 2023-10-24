@@ -31,6 +31,7 @@ a {
   font-family: 'Cabin', sans-serif;
   text-decoration: none;
   color: rgb(51, 100, 61);
+  font-weight: 400;
 }
 
 a:hover {
@@ -42,6 +43,7 @@ a:hover {
 p {
   font-family: 'Cabin', sans-serif;
   font-size: 1rem;
+  font-weight: 400;
 }
 
 header {
@@ -82,6 +84,7 @@ nav a {
   font-family: 'Cabin', sans-serif;
   text-decoration: none;
   color: rgb(51, 100, 61);
+  font-weight: 400;
 }
 
 nav a:hover {
@@ -272,6 +275,7 @@ header a {
 }
 
 main {
+  min-height: 40rem;
   max-width: 1920px;
   margin: 0 auto;
   text-align: center;
@@ -370,7 +374,9 @@ main h2 {
 }
 
 .news_card a {
-  position: sticky;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  position: absolute;
   bottom: 0;
   display: inline-block;
   margin: 0.625rem;
@@ -378,7 +384,6 @@ main h2 {
   text-decoration: none;
   color: rgb(51, 100, 61);
   font-size: 1rem;
-  font-weight: bold;
   cursor: pointer;
 }
 
@@ -487,6 +492,11 @@ text-align: start;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: auto;
+}
+
+figcaption {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
 }
 
 .person_info img {
