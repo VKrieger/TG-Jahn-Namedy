@@ -14,3 +14,10 @@ submenus[i].addEventListener("click" , function() {
     submenus[i].classList.toggle('sub');
 },false);}
 
+const fullscreen = document.getElementsByClassName('fullscreen')[0];
+
+if (window.matchMedia("(orientation: portrait)").matches) {
+    fullscreen.removeAttribute("autoplay");
+    fullscreen.removeAttribute("loop");
+    fullscreen.setAttribute("preload","none");
+}
