@@ -153,6 +153,7 @@ header a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url(../resources/images/hero/Sportplatz2.webp);
 }
 
 .hero article {
@@ -562,6 +563,10 @@ footer nav a:hover {
 }
 
 @media only screen and (orientation: portrait) {
+    video {
+      display: none;
+    }
+
   .links {
     display: none;
   }
@@ -574,6 +579,7 @@ footer nav a:hover {
 
   .hero {
     height: 38rem;
+    
   }
 
   main {
