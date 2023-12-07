@@ -328,7 +328,7 @@ main h2 {
   overflow: hidden;
 }
 
-.news_card:hover {
+.news_card:hover, .events figure:hover {
   transition: 0.3s ease-out;
   transform: scale(1.03);
   box-shadow: 1px 2px 8px rgba(100, 100, 100, 0.5);
@@ -337,6 +337,33 @@ main h2 {
 .image_wrapper {
   height: 20rem;
 }
+
+.events {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.events figure{
+  width: 20rem;
+  margin: 0;
+  padding: 0;
+  border-radius: 0.5rem;
+  box-shadow: 1px 2px 8px rgba(100, 100, 100, 0.2);
+  overflow: hidden;
+  text-align: center;
+}
+
+.events figure img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: contain;
+}
+
+
 
 .news_card img {
   width: 100%;
