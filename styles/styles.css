@@ -664,6 +664,15 @@ footer nav a:hover {
     
   }
 
+  .events {
+    width: 100%;
+    margin: 0;
+  }
+
+  .news_card {
+    width: 100%;
+  }
+
   main {
     margin: 0;
     padding: 1rem;
