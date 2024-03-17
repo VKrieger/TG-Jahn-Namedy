@@ -1,3 +1,20 @@
+<?php
+
+$name = $_POST["name"];
+$email = $_POST["email"];
+$betreff = $_POST["betreff"];
+$nachricht = $_POST["nachricht"];
+$Datenverarbeitung = $_POST["Datenverarbeitung-Einwilligung"];
+
+$mailheader = "From: ".$name."<".$email.">\r\n";
+
+$recipient = "krieger.vi+phpcontactform@gmail.com";
+
+mail($recipient, $betreff, $nachricht, @$mailheader);
+
+
+echo'
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -629,3 +646,8 @@
     </footer>
   </body>
 </html>
+
+
+'
+
+?>
