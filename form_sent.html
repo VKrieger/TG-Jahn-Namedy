@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>TG Jahn Namedy</title>
+    <link href="./styles/styles.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./resources/images/favicon_io/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="./styles/index.js" defer></script>
+  </head>
+  <body>
+    <div id="mobileNav">
+      <div id="burgerBtn"></div>
+      <div id="moNav">
+        <ul id="moNavList">
+          <li><a href="./index.html#aktuelles">Aktuelles</a></li>
+          <li class="submenu">
+            <a tabindex="0">Verein <span class="dropdownArrow">></span></a>
+            <ul>
+              <li><a href="./Vorstand/ueber_uns.html">Über Uns</a></li>
+              <li><a href="./Vorstand/vorstand.html">Vorstand</a></li>
+              <li>
+                <a href="./Vorstand/mitgliedschaft.html">Mitglied werden</a>
+              </li>
+              <li><a href="./Vorstand/downloads.html">Downloads</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <a tabindex="0">Fussball <span class="dropdownArrow">></span></a>
+            <ul>
+              <li><a href="./Fussball/bambinis.html">Bambinis</a></li>
+              <li><a href="./Fussball/f_jugend.html">F-Jugend</a></li>
+              <li><a href="./Fussball/e_jugend.html">E-Jugend</a></li>
+              <li><a href="./Fussball/d_jugend.html">D-Jugend</a></li>
+              <li><a href="./Fussball/herren.html">Alte Herren</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <a tabindex="0"
+              >Breitensport <span class="dropdownArrow">></span></a
+            >
+            <ul>
+              <li><a href="./Breitensport/gymnastik.html">Gymnastik</a></li>
+              <li>
+                <a href="./Breitensport/bauch_beine_po.html">Bauch Beine Po</a>
+              </li>
+              <li>
+                <a href="./Breitensport/leichtathletik.html">Leichtathletik</a>
+              </li>
+              <li>
+                <a href="./Breitensport/kinderturnen.html">Kinderturnen</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="./Badminton/badminton.html">Badminton</a></li>
+          <li><a href="./Tischtennis/tischtennis.html">Tischtennis</a></li>
+          <li><a href="./Volleyball/volleyball.html">Volleyball</a></li>
+        </ul>
+      </div>
+
+      <header>
+        <nav class="logo">
+          <a href="./index.html"
+            ><img src="./resources/images/logo.svg" alt="logo"
+          /></a>
+        </nav>
+        <nav class="links">
+          <ul>
+            <li><a href="./index.html#aktuelles">Aktuelles</a></li>
+            <li>
+              <a tabindex="0">Verein</a>
+              <ul>
+                <li><a href="./Vorstand/ueber_uns.html">Über Uns</a></li>
+                <li><a href="./Vorstand/vorstand.html">Vorstand</a></li>
+                <li>
+                  <a href="./Vorstand/mitgliedschaft.html">Mitglied werden</a>
+                </li>
+                <li><a href="./Vorstand/downloads.html">Downloads</a></li>
+              </ul>
+            </li>
+            <li>
+              <a tabindex="0">Fussball</a>
+              <ul>
+                <li><a href="./Fussball/bambinis.html">Bambinis</a></li>
+                <li><a href="./Fussball/f_jugend.html">F-Jugend</a></li>
+                <li><a href="./Fussball/e_jugend.html">E-Jugend</a></li>
+                <li><a href="./Fussball/d_jugend.html">D-Jugend</a></li>
+                <li><a href="./Fussball/herren.html">Alte Herren</a></li>
+              </ul>
+            </li>
+            <li>
+              <a tabindex="0">Breitensport</a>
+              <ul>
+                <li><a href="./Breitensport/gymnastik.html">Gymnastik</a></li>
+                <li>
+                  <a href="./Breitensport/bauch_beine_po.html"
+                    >Bauch Beine Po</a
+                  >
+                </li>
+                <li>
+                  <a href="./Breitensport/leichtathletik.html"
+                    >Leichtathletik</a
+                  >
+                </li>
+                <li>
+                  <a href="./Breitensport/kinderturnen.html">Kinderturnen</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="./Badminton/badminton.html">Badminton</a></li>
+            <li><a href="./Tischtennis/tischtennis.html">Tischtennis</a></li>
+            <li><a href="./Volleyball/volleyball.html">Volleyball</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="mobileBodyContent">
+        <section class="hero">
+          <video
+            class="fullscreen"
+            src="./resources/images/hero/TG-Jahn-Namedy-Sportplatz.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+          <article>
+            <div class="headline">
+              <h1>TG Jahn Namedy 1910 e.V.</h1>
+              <p>
+                Von Fußball über Bauch Beine Po bis Kinderturnen <br />- für
+                jeden ist etwas dabei.
+              </p>
+            </div>
+            <a class="buttonLink" href="./Vorstand/mitgliedschaft.html"
+              >Jetzt Mitglied werden</a
+            >
+          </article>
+        </section>
+      </div>
+    </div>
+    <main>
+      <section id="aktuelles">
+        <h2>Termine</h2>
+        <div class="events">
+          <div class="news_card event">
+            <div class="event_headline">
+              <div class="jahr">
+                <p>
+                  20<br />
+                  24
+                </p>
+              </div>
+              <div class="head_name">
+                <p>
+                  Jahres<br />
+                  haupt<br />
+                  versammlung
+                </p>
+              </div>
+            </div>
+            <div class="text_box">
+              <time>Freitag, 22.März 2024 18:30 Uhr</time>
+              <h3>Einladung zur Jahres&shy;haupt&shy;versammlung 2024</h3>
+              <p>
+                Die TG Jahn Namedy e.V. lädt alle Mitglieder und Interessenten
+                zur diesjährigen Jahreshauptversammlung ein.<br />
+                Die Versammlung findet am Freitag, den 22.03.2024 um 18:30 Uhr
+                im Vereinsheim in der Waldstraße in Namedy statt.<br />
+                Die Tagesordung gestaltet sich wie folgt:
+              </p>
+              <ol>
+                <li>Begrüßung durch den Vorsitzenden</li>
+                <li>Feststellung der Beschlussfähigkeit</li>
+                <li>Totenehrung</li>
+                <li>Verlesung des letzten Protokolls</li>
+                <li>Geschäftsbericht des Geschäftsführers</li>
+                <li>Berichte der Abteilungsleiter</li>
+                <li>Kassenbericht</li>
+                <li>Wirtschaftlichkeitsbericht</li>
+                <li>Entlastung des Schatzmeisters</li>
+                <li>Entlastung des Vorstands</li>
+                <li>Wahl eines Kassenprüfers</li>
+                <li>Ausblick auf Veranstaltungen 2024</li>
+                <li>Verschiedenes und Fragen der Mitgliederversammlung</li>
+              </ol>
+              <p>
+                Weitere Punkte bzw. Einwände gegen die Tagesordung können bis
+                zum 15.März 2024 schriftlich beim Vorstand eingereicht werden.
+              </p>
+            </div>
+          </div>
+
+          <figure id="weihnachtsfeier">
+            <img src="./resources/images/news/Weihnachtsfeier2.webp" />
+            <figcaption>
+              Am 13. Dezember um 17:15 laden wir herzlich zur Weihnachtsfeier
+              ein! 🌟🎅🏼 Gemeinsam feiern wir sportliche Erfolge und die
+              festliche Zeit. 🎄⚽️
+            </figcaption>
+          </figure>
+        </div>
+        <h2>Aktuelles</h2>
+        <article class="news">
+          <div class="news_card">
+            <div class="image_wrapper">
+              <img src="./resources/images/news/Herresbach.webp" />
+            </div>
+            <div class="text_box">
+              <time>18. November 2023</time>
+              <h3>TG Jahn Namedy macht Sensation perfekt</h3>
+              <p>
+                Die Nachwuchskicker der D-Jugend der TG Jahn Namedy reisten am
+                letzten Spieltag aufgrund des am Vortag erkämpften
+                Auswärtssieges der JSG Adenau II mit drei Punkten Rückstand auf
+                die Tabellenspitze zum alles entscheidenden Spiel zur JSG
+                Herresbach. Bei nasskaltem und windigem Herbstwetter musste
+                demnach zwingend der zweite Auswärtssieg eingefahren werden, um
+                die Sensation perfekt zu machen. Das Trainergespann Olck/Leinert
+                setzte daher aufgrund der Aufgabenstellung mit Spielbeginn auf
+                volle Offensive.<br />
+                Die Grünhemden liefen die Gastgeber mit dem Anpfiff hoch an und
+                ergaunerten sich das Spielgerät auf dem linken Flügel. Den
+                satten Abschluss des quirligen Flügelstürmers konnte der Keeper
+                der Heimsieben nur nach vorne klatschen lassen. Der Neuner der
+                Gäste vom Rhein stand goldrichtig und legte den Ball gekonnt in
+                die Maschen zur frühen Führung der Gäste. Die Jungs aus
+                Herresbach beantworteten die Führung mit einer Bogenlampe der
+                Extraklasse. Begünstigt vom Wind flog ein Schlag Marke „langer
+                Hafer“ mit Hilfe des Innenpfostens im Kreuzeck ein. Die Gäste
+                aus Namedy hielten die Konzentration hoch und beantworteten den
+                kuriosen Gegentreffer mit einem schönen Tor des im Laufe der
+                Saison immer besser aufspielenden Mittelfeldregisseurs zur
+                nächsten Führung. Die Jungs aus Herresbach paktierten weiterhin
+                mit dem böigen Wind und trafen zum erneuten Ausgleich per
+                Distanzflatterball. Dem weiteren Rückschlag ließen die grünen
+                Löwen eine linke Klebe des Linksaußen ins lange Eck zur dritten
+                Führung folgen. Was für eine turbulente Anfangsphase. Mithin
+                beruhigte sich das Spielgeschehen, die D-Junioren aus Namedy
+                blieben jedoch weiterhin die gefährlichere Sieben. In der 21.
+                Spielminute belohnten sich die Namedyer dank eines abgefälschten
+                Schusses ihres Standardspezialisten mit dem vierten Treffer. Die
+                Abwehrreihe ließ keine Torchance der Gäste zu und mit dem
+                Pausenpfiff stellte ein erneuter strammer Abschluss des linken
+                Außenstürmers die Weichen auf Sieg.<br />
+                In der zweiten Halbzeit legte Petrus nochmals eine Schippe drauf
+                und spendete reichlich Regen. Die nun äußerst widrigen
+                Bedingungen nutzten die Gastgeber zum dritten Treffer per
+                Konter. Das große Flattern stellte sich bei den Gästen jedoch
+                nicht ein, da ein letzter Durchbruch der Namedyer über die linke
+                Außenbahn die Entscheidung brachte. Mit dem Schlusspfiff
+                jubelten die Gäste lautstark über einen verdienten
+                Auswärtsdreier und den vor Saisonstart nicht zu erwartenden
+                Staffelsieg.
+              </p>
+              <p>
+                Für die TG Jahn Namedy liefen auf:<br />
+                Maria Platen, Paul Leinert, Til Niemann, Maxim Likow, Dimitrij
+                Gradinar, Jonah Schiffmacher, Louis Broistedt, Max Tüting, Maxi
+                Pflug, Hannes Platen, Jule Olck, Max Kriegel
+              </p>
+            </div>
+            <a href="./index.html#aktuelles" tabindex="0"
+              ><span class="material-symbols-outlined"> open_in_full </span
+              >weiter lesen...</a
+            >
+          </div>
+
+          <div class="news_card">
+            <div class="image_wrapper">
+              <img src="./resources/images/news/Gemeinschaftsfoto_2023.webp" />
+            </div>
+            <div class="text_box">
+              <time>11. November 2023</time>
+              <h3>Gemeinschaftsfoto 2023</h3>
+              <p>
+                Das Turnier war sehr erfolgreich, das Wetter hat super
+                mitgespielt und der Rasen sorgte für eine gewisse
+                Herausforderung. Ich denke, die Kinder hatten viel Spaß gehabt
+                beim letzten Turnier an der frischen Luft.
+              </p>
+              <p>von Slawa Likow (F-Jugend)</p>
+            </div>
+            <a href="./index.html#aktuelles" tabindex="0"
+              ><span class="material-symbols-outlined"> open_in_full </span
+              >weiter lesen...</a
+            >
+          </div>
+
+          <div class="news_card">
+            <div class="image_wrapper">
+              <img src="./resources/images/news/Rekordsieg_djugend_2023.webp" />
+            </div>
+            <div class="text_box">
+              <time>11. November 2023</time>
+              <h3>&#127941;</h3>
+              <p>
+                Glückwunsch an die Kinder, der höchste Sieg 🥇 einer Namedyer
+                D-Jugend!
+              </p>
+            </div>
+            <a href="./index.html#aktuelles" tabindex="0"
+              ><span class="material-symbols-outlined"> open_in_full </span
+              >weiter lesen...</a
+            >
+          </div>
+
+          <div class="news_card">
+            <div class="image_wrapper">
+              <img src="./resources/images/news/adenaull.webp" />
+            </div>
+            <div class="text_box">
+              <time>11. Oktober 2023</time>
+              <h3>Spitzenspiel an der Waldstraße</h3>
+              <p>
+                Die Fußballer der D-Jugend der TG Jahn Namedy empfingen am
+                letzten Spieltag vor den Herbstferien den Tabellenführer, die
+                Zweitvertretung der JSG Adenau, zum Spitzenspiel der D7 Staffel
+                Rheinland an der heimischen Waldstraße. Aufgrund der Heimstärke
+                der Grünhemden räumten die Buchmacher der TG Jahn Namedy eine
+                realistische Chance auf einen Dreier ein. Beide Teams starteten
+                hochmotiviert in eine spannende Partie.<br />
+                In der Anfangsphase war beiden Teams eine gewisse Nervosität
+                aufgrund der Bedeutung des Spiels anzumerken. Spielerische
+                Elemente blieben zunächst aus, die Teams überzeugten durch
+                unermüdlichen Einsatz und Kampf. In der 6. Spielminute fasste
+                sich der Namedyer Mittelstürmer ein Herz und versenkte einen
+                tollen Fernschuss mit Hilfe der Unterkante der Latte im Gehäuse
+                der Gäste. Die Mannen der JSG Adenau zeigten sich hiervon
+                unbeeindruckt und glichen nahezu postwendend in der 8.
+                Spielminute aus. Im weiteren Spielverlauf dominierten weiterhin
+                Kampf und Leidenschaft das Geschehen. Nach einer intensiven
+                ersten Halbzeit ging es somit mit einem leistungsgerechten
+                Unentschieden vor den mitfiebernden Zuschauern in die
+                Katakomben.<br />
+                In der aufgrund der einsetzenden Dämmerung knackigen
+                Halbzeitpause schworen die Trainer Matthais Olck und Holger
+                Leinert die Grünhemden lautstark auf eine mögliche Überraschung
+                ein und schickten die Heimsieben zu unvergesslichen weiteren 30
+                Minuten auf das alt bewährte holprige Namedyer Grün.<br />
+                Das Spiel knüpfte an die Geschehnisse der ersten Halbzeit an,
+                unvermindert ging es mit hohem Einsatz zur Sache. In der 33.
+                Minute schnappte die ansonsten einstudierte Abseitsfalle der
+                Gastgeber nicht zu. Der Tabellenführer aus Adenau nutzte die
+                Eins gegen Eins Situation eiskalt zur Führung. Spiel gedreht. Im
+                direkten Gegenzug konnte der Namedyer Stürmer nur per Foul auf
+                der Linie des Strafraums gestoppt werden, der Schiedsrichter
+                verlegte den Tatort jedoch außerhalb des Strafraums. Somit bot
+                sich „nur“ per direktem Freistoß die Chance zum Ausgleich. Der
+                Gefoulte legte sich das Leder zurecht und überraschte den Keeper
+                der Gäste mit einem satten Aufsetzer in die Torwartecke.
+                Ausgleich. Beflügelt vom Ausgleich legten die D-Junioren
+                nochmals einen Gang zu. Einen scharf geschlagenen Eckball der
+                Heimsieben landete zunächst in den Händen des Gästekeepers.
+                Dieser ließ den Ball jedoch fallen und wurde so denn per feinem
+                Heber zur Führung der Grünhemden überwunden. Die Gäste warfen
+                nun alles nach vorne und erspielten sich mehrere Torchancen zum
+                Ausgleich. Mit unermüdlichem Einsatz hielten die grünen Löwen
+                dagegen und verteidigten ihr Tor mit der Hoffnung das Spiel per
+                Konter zu entscheiden. In der 51. Minute setzte sich nach einem
+                der vielen langen Schläge der pfeilschnelle Mittelstürmer der
+                Kicker vom Rhein im Laufduell durch und setzte per Heber das
+                Spielgerät zum 4:2 in der 51. Minute über den herausstürzenden
+                Torwart in die Maschen. Die Entscheidung. Dachten die
+                aufgeregten Fans der TG Jahn Namedy bis zur 58. Spielminute.
+                Anschlusstreffer und der Anpfiff zu einem wahren
+                Herzschlagfinale. Die Gäste drückten nun auf den
+                Ausgleichstreffer. Im Sekundentakt segelten die Bälle in den
+                Strafraum der Namedyer, es brannte in selbigem lichterloh,
+                Löschvorgänge bestanden nunmehr allein durch lange
+                Befreiungsschläge. Auch der Schiedsrichter fand immer mehr
+                Gefallen an diesem nun hochdramatischen Spiel und machte keine
+                Anstalten das Spiel zu beenden. Den lautstarken Rufen des
+                Trainerduos zum Trotz ließ dieser bei immer ungünstiger
+                werdenden Lichtverhältnissen einen letzten Angriff der Gäste zu.
+                Ein mißglückter Rettungsversuch servierte dem Gästestürmer eine
+                top Einschussgelegenheit mit der letzten Aktion des Spiels. Den
+                Zuschauern stockte der Atem, das Spielgerät donnerte Richtung
+                langes Eck und schlug nicht im Tornetz ein. Die „Eule“ im Kasten
+                der Namedyer behielt den Durchblick und fischte den Ball aus dem
+                bedrohten Eck. Glanzparade. Nach der letzten geklärten Ecke
+                ertönte der lang ersehnte Schlusspfiff des Unparteiischen und
+                setzte eine Jubelorgie in Gang, welche mit einem lautstarken
+                Freudentanz in der Kabine ihren Höhepunkt fand.<br />
+                Ein sensationelles Fußballspiel beider Teams wird vielen
+                Zeitzeugen noch lange in Erinnerung bleiben.
+              </p>
+              <p>
+                Für die TG Jahn Namedy liefen auf:<br />
+                Paul Leinert, Til Niemann, Andi Stromberger, Maxim Likow,
+                Dimitrij Gradinar, Jonah Schiffmacher, Louis Broistedt, Max
+                Tüting, Maximilian Pflug, Hannes Platen, Max Kriegel
+              </p>
+            </div>
+            <a href="./index.html#aktuelles" tabindex="0"
+              ><span class="material-symbols-outlined"> open_in_full </span
+              >weiter lesen...</a
+            >
+          </div>
+
+          <div class="news_card">
+            <div class="image_wrapper">
+              <img src="./resources/images/news/burgbrohl.webp" />
+            </div>
+            <div class="text_box">
+              <time>15. September 2023</time>
+              <h3>Wildes Spektakel in Burgbrohl</h3>
+              <p>
+                Die Kicker der D-Jugend der TG Jahn Namedy reisten mit breiter
+                Brust zum Duell zweier Auftaktsieger nach Burgbrohl. Aufgrund
+                des überzeugenden Auftritts vom Saisonauftakt schielten die
+                Namedyer Fußballer auch im Brohltal auf weitere Punkte. Das
+                Trainerduo Olck/Leinert verordnete den Grünhemden eine
+                kontrollierte Offensive im bewährten 3 - 2 - 1.<br />
+                Die Zweitvertretung der JSG Brohltal startete selbstbewusst in
+                ein denkwürdiges Fußballspiel und erzielte bereits nach 5
+                Minuten die verdiente Verführung. Ein Wirkungstreffer. Die
+                Grünhemden waren in dieser Phase des Spiels um Spielkontrolle
+                bemüht, mussten in der 20. Spielminute jedoch den nächsten
+                Treffer hinnehmen. Im Gegenzug gelang mit der ersten gelungenen
+                Offensivaktion der Anschlusstreffer. Die Gastgeber zeigten sich
+                jedoch wenig beeindruckt und legten per Doppelpack in der 25.
+                und 27. Spielminute nach. Ein direkt verwandelter Freistoß der
+                Marke „Tor des Monats“ landete im rechten Kreuzeck und ließ die
+                Grünhemden wieder hoffen.<br />
+                Zur zweiten Halbzeit brachten die Kicker vom Rhein frisches
+                Angriffspersonal auf den Rasen. Die Heimsieben wurde nun hoch
+                angelaufen und unter Druck gesetzt. Ließen die Grünhemden zwei
+                gute Einschussgelegenheiten noch ungenutzt, sorgte ein fein
+                herausgespielter Treffer für den Anschluss. Die Jungs aus
+                Burgbrohl suchten ihr Heil im Konterspiel und schlossen diese
+                zweimal erfolgreich ab. In der 50. Spielminute schienen die
+                anvisierten Punkte verloren. Die wacker kämpfenden Grünhemden
+                warfen nun nochmals alles in die Waagschale und schafften in der
+                51. Spielminute nach einer scharf getretenen Ecke aus dem Gewühl
+                heraus das 4:6. In der 57. schweißte der zur Halbzeit
+                eingewechselte Stürmer der Namedyer einen Vollspannstoß aus
+                vollem Lauf unnachahmlich in den Winkel. Beide Mannschaften
+                wurden in einer atemberaubenden Schlussphase von den jeweiligen
+                Fanlagern unterstützt. Die nahezu entblößte Abwehr der
+                Grünhemden warf sich in jeden Schuss und verhinderte mehrmals
+                die Vorentscheidung. Auf der anderen Seite hielt der gut
+                aufgelegte Keeper der Gastgeber die drei Punkte fest. Ein
+                letztes Tempodribbling ermöglichte den Grünhemden eine finale
+                Schusschance. Der starke linke Fuß des Nameyder Angreifers
+                setzte einen Schuss in die lange Ecke ab. Zahlreiche Augenpaare
+                verfolgten das runde Leder, welches in der langen Ecke unhaltbar
+                einschlug und für einen ekstatischen Jubel auf der Trainerbank
+                sorgte. Was für eine Moral der Löwen aus Namedy. Ein
+                denkwürdiges Fußballspiel bescherte den überglücklichen
+                Namedyern eine Momentaufnahme für die Ewigkeit - Tabellenführer
+                für eine Nacht.
+              </p>
+              <p>
+                Für die TG Jahn Namedy liefen auf:<br />
+                Maria Platen, Paul Leinert, Til Niemann, Andi Stromberger, Maxim
+                Likow, Dimitrij Gradinar, Jonah Schiffmacher, Louis Broistedt,
+                Max Tüting, Maxi Pflugs, Hannes Platen
+              </p>
+            </div>
+            <a href="./index.html#aktuelles" tabindex="0"
+              ><span class="material-symbols-outlined"> open_in_full </span
+              >weiter lesen...</a
+            >
+          </div>
+        </article>
+      </section>
+      <section>
+        <h2>Kontakt</h2>
+        <div class="contact_form">
+            <h4>Vielen Dank, Ihre Nachricht wurde versendet</h4>
+        </div>
+      </section>
+      <section class="anfahrt" id="anfahrt">
+        <h2>Anfahrt</h2>
+        <div class="ort">
+          <div class="kontakt">
+            <h3>Sportplatz und Vereinsheim</h3>
+            <p>Waldstraße</p>
+            <p>56626 Andernach - Namedy</p>
+            <a href="mailto:vorstand@tg-jahn-namedy.de"
+              >vorstand@tg-jahn-namedy.de</a
+            >
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.4799956780346!2d7.362504436572947!3d50.45201969412559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bef560894d46d9%3A0xbb18293aa77bfc9a!2sTG%20Jahn%20Namedy%201910%20e.V.!5e0!3m2!1sde!2sde!4v1698089103573!5m2!1sde!2sde"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="ort">
+          <div class="kontakt">
+            <h3>Sporthalle</h3>
+            <p>Malmedyer Weg</p>
+            <p>56626 Andernach - Namedy</p>
+            <a href="mailto:vorstand@tg-jahn-namedy.de"
+              >vorstand@tg-jahn-namedy.de</a
+            >
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2442516128335!2d7.3632906!3d50.4551762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bef5c5fedbd99d%3A0x78d4142a3e4d81e2!2sSporthalle!5e0!3m2!1sde!2sde!4v1692047418404!5m2!1sde!2sde"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="sponsor">
+        <h2>Sponsoren</h2>
+        <article class="sponsoren">
+          <div class="sponsor_card">
+            <a
+              href="https://www.sanitaer-heizung-andernach.de/"
+              target="_blank"
+            >
+              <img src="./resources/images/Sponsors/logo-proff_inet.png" />
+            </a>
+          </div>
+          <div class="sponsor_card">
+            <img src="./resources/images/Sponsors/cache_2473940292.png" />
+          </div>
+          <div class="sponsor_card">
+            <img src="./resources/images/Sponsors/ksk.png" />
+          </div>
+          <div class="sponsor_card">
+            <img src="./resources/images/Sponsors/stadtwerke.jpeg" />
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>TG Jahn Namedy auf Social Media</p>
+      <div class="socials">
+        <a
+          href="https://www.facebook.com/TGNAMEDY"
+          alt="facebook"
+          target="_blank"
+          ><img src="./resources/images/f_logo_RGB-Black_1024.webp"
+        /></a>
+        <a
+          href="https://www.instagram.com/tgjahnnamedy"
+          alt="instagram"
+          target="_blank"
+          ><img src="./resources/images/ig-logo-bw.webp"
+        /></a>
+      </div>
+      <nav>
+        <a href="./datenschutz.html">Datenschutz</a>
+        <a href="./impressum.html">Impressum</a>
+      </nav>
+      <p class="copyright">
+        2023 TG Jahn Namedy 1910 e.V. - Alle Rechte vorbehalten.
+      </p>
+    </footer>
+  </body>
+</html>
