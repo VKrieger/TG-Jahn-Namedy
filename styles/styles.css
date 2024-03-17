@@ -260,7 +260,7 @@ video.fullscreen {
   line-height: 2;
 }
 
-#buttonLink {
+.buttonLink {
   text-decoration: none;
   padding: 1.3em 3em;
   font-size: 12px;
@@ -277,14 +277,14 @@ video.fullscreen {
   outline: none;
 }
 
-#buttonLink:hover {
+.buttonLink:hover {
   background-color: #23c483;
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
   transform: translateY(-7px);
 }
 
-#buttonLink:active {
+.buttonLink:active {
   transform: translateY(-1px);
 }
 
@@ -528,6 +528,36 @@ margin: auto 0 auto 1rem;
 
 main section {
   margin-top: 5rem;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border: 1px solid rgb(51, 100, 61);
+  color: rgb(51, 100, 61);
+  border-radius: 0.25rem;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  vertical-align: middle;
 }
 
 .ort {

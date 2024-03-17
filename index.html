@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <title>TG Jahn Namedy</title>
     <link href="./styles/styles.css" rel="stylesheet" />
     <link
@@ -144,7 +144,7 @@
                 jeden ist etwas dabei.
               </p>
             </div>
-            <a id="buttonLink" href="./Vorstand/mitgliedschaft.html"
+            <a class="buttonLink" href="./Vorstand/mitgliedschaft.html"
               >Jetzt Mitglied werden</a
             >
           </article>
@@ -164,17 +164,22 @@
                 </p>
               </div>
               <div class="head_name">
-                <p>Jahres<br />
-                haupt<br />
-                versammlung</p>
+                <p>
+                  Jahres<br />
+                  haupt<br />
+                  versammlung
+                </p>
               </div>
             </div>
             <div class="text_box">
               <time>Freitag, 22.März 2024 18:30 Uhr</time>
               <h3>Einladung zur Jahres&shy;haupt&shy;versammlung 2024</h3>
-              <p>Die TG Jahn Namedy e.V. lädt alle Mitglieder und Interessenten zur diesjährigen Jahreshauptversammlung ein.<br />
-              Die Versammlung findet am Freitag, den 22.03.2024 um 18:30 Uhr im Vereinsheim in der Waldstraße in Namedy statt.<br />
-              Die Tagesordung gestaltet sich wie folgt:
+              <p>
+                Die TG Jahn Namedy e.V. lädt alle Mitglieder und Interessenten
+                zur diesjährigen Jahreshauptversammlung ein.<br />
+                Die Versammlung findet am Freitag, den 22.03.2024 um 18:30 Uhr
+                im Vereinsheim in der Waldstraße in Namedy statt.<br />
+                Die Tagesordung gestaltet sich wie folgt:
               </p>
               <ol>
                 <li>Begrüßung durch den Vorsitzenden</li>
@@ -191,7 +196,10 @@
                 <li>Ausblick auf Veranstaltungen 2024</li>
                 <li>Verschiedenes und Fragen der Mitgliederversammlung</li>
               </ol>
-              <p>Weitere Punkte bzw. Einwände gegen die Tagesordung können bis zum 15.März 2024 schriftlich beim Vorstand eingereicht werden.</p>
+              <p>
+                Weitere Punkte bzw. Einwände gegen die Tagesordung können bis
+                zum 15.März 2024 schriftlich beim Vorstand eingereicht werden.
+              </p>
             </div>
           </div>
 
@@ -469,11 +477,48 @@
           </div>
         </article>
       </section>
+      <section>
+        <h2>Kontakt</h2>
+        <div class="contact_form">
+          <form
+            action="https://formsubmit.co/krieger.vi+tgjahnform@gmail.com"
+            method="POST"
+          >
+            <label for="name"
+              >Vor- und Nachname:
+              <input id="name" name="name" type="text" required
+            /></label>
+            <label for="email"
+              >Deine E-Mail Adresse:
+              <input id="email" name="email" type="email" required
+            /></label>
+            <label for="betreff"
+              >Betreff: <input id="betreff" name="betreff" type="text" required
+            /></label>
+            <label for="nachricht"
+              >Deine Nachricht an uns:
+              <textarea
+                id="nachricht"
+                name="nachricht"
+                rows="10"
+                cols="30"
+              ></textarea>
+            </label>
+            <label for="Datenverarbeitung-Einwilligung"> 
+              <input class="inline" id="Datenverarbeitung-Einwilligung" type="checkbox" required name="Datenverarbeitung-Einwilligung"/>Hiermit erkläre ich mich einverstanden, dass meine in das Kontaktformular eingegebenen Daten elektronisch gespeichert und zum Zweck der Kontaktaufnahme verarbeitet und genutzt werden. Mir ist bekannt, dass ich meine Einwilligung jederzeit widerrufen kann.
+            </label>
+            <input type="hidden" name="_subject" value="Webseite-Kontaktformular">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://tg-jahn-namedy.de/index.html">
+            <input class="buttonLink" type="submit" value="Senden"/>
+          </form>
+        </div>
+      </section>
       <section class="anfahrt" id="anfahrt">
-        <h2>Kontakt und Anfahrt</h2>
+        <h2>Anfahrt</h2>
         <div class="ort">
           <div class="kontakt">
-            <h3>Sportplatz und Vereinsheim</h3>
+          <h3>Sportplatz und Vereinsheim</h3>
             <p>Waldstraße</p>
             <p>56626 Andernach - Namedy</p>
             <a href="mailto:vorstand@tg-jahn-namedy.de"
