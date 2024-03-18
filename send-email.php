@@ -1,10 +1,17 @@
 <?php
 
 $name = $_POST["name"];
-$email = $_POST["email"];
+$em = $_POST["em"];
 $betreff = $_POST["betreff"];
 $nachricht = $_POST["nachricht"];
 $Datenverarbeitung = $_POST["Datenverarbeitung-Einwilligung"];
+
+$honey = $_POST["email"];
+
+if(!empty($honey)){
+    echo "Bad ROBOT!";
+    exit;
+}
 
 require_once "./vendor/autoload.php";
 
@@ -30,12 +37,12 @@ $mail->Port = 587;
 
 $mail->setFrom("kontaktformular@tg-jahn-namedy.de", "Webseite Kontakt");
 $mail->addAddress("kontaktformular@tg-jahn-namedy.de", "Webseite Kontakt");
-$mail->addReplyTo($email, $name);
+$mail->addReplyTo($em, $name);
 
 $mail->isHTML(true);
 $mail->Subject = $betreff;
 
-$inhalt = "Name: " . $name . "<br/>Betreff: " . $betreff . "<br/>E-Mail: " . $email . "<br/>Nachricht: " . $nachricht . "";
+$inhalt = "Name: " . $name . "<br/>Betreff: " . $betreff . "<br/>E-Mail: " . $em . "<br/>Nachricht: " . $nachricht . "";
 $mail->Body = $inhalt;
 
 $mail->send();
